@@ -11,16 +11,11 @@ int Multiply(int a, int b)
     }
     void Start()
     {
-    int Multiply(int a, int b)
-    {
-        return a * b;
-    }
 int S = 5; 
 for (int Y = 1; Y <= 10; Y++)
 {
     int result = Multiply(S,Y);
     Debug.Log($"{S} x {Y} = {result}");
-    //Debug.Log($"{S} x {Y} = {result}");
 }
 
 
